@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 body,html{
   font-family: 'Pacifico', cursive;
   padding: 0;
@@ -8,6 +10,7 @@ body,html{
 
 h1{
   font-size: 74px;
+  font-family: 'Satisfy', cursive;
 }
 
 h2{
@@ -20,7 +23,121 @@ h3{
 
 .hero-banner{
   background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
+  padding: 50px 20px;
+  overflow: hidden;
 }
 
+.hero-banner .logo-white{
+  width: 395.21px;
+  height: 195.59px;
+}
+
+.hero-banner h1{
+  color: white;
+}
+
+.hero-banner a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 0 0 0 5px white;
+  border-radius: 55px;
+  padding: 0 30px;
+  margin-right: 70px;
+}
+
+.hero-banner h1 , .hero-banner a{
+  margin: 50px 20px 50px 109px;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+
+nav{
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+nav .logo{
+ background-image: url(../img/logo\ -\ black.png);
+ 
+ display: block;
+ height: 87px;
+ width: 207px;
+ background-size: 100%;
+ position: absolute;
+  top: 50%;
+  margin-top: -37px;
+  left: 0px;
+  margin-left: 30px;
+  overflow: hidden;
+  text-indent: -995px;
+}
+
+nav ul{
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+nav ul li{
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #111111;
+  text-decoration:none ;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+.index-item{
+  display: inline-block;
+  width: 500px;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index-item img{
+  width: 90%;
+  height: 100%;
+  margin: 0 25px;
+}
+
+.index-text{
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  background-color: white;
+  margin: 70px 0;
+  padding: 10px 25px;
+  border-radius: 0 50px 50px 0;
+}
+
+.cheese-cake{
+  height: 100vh;
+  background-image: url(../img/bg-chcake@2x.png);
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.cheese-cake-items li{
+  display: block;
+}
